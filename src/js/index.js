@@ -1,4 +1,4 @@
-import initSmoothScrolling from './smooth-scoll';
+import initSmoothScrolling from './smooth-scroll';
 
 initSmoothScrolling();
 

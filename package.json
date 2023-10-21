@@ -1,11 +1,11 @@
 {
   "name": "profile-rebuild",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "app/index.html",
   "license": "MIT",
   "scripts": {
-    "dev": "rm -rf .parcel-cache && parcel src/index.html -p 3000 --host 0.0.0.0",
-    "build": "parcel build src/index.html --dist-dir dist"
+    "dev": "rm -rf .parcel-cache && parcel app/index.html -p 3000 --host 0.0.0.0",
+    "build": "parcel build app/index.html --dist-dir dist"
   },
   "keywords": [],
   "author": "",
